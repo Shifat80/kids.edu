@@ -209,6 +209,7 @@ a{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    padding-top: 20px;
 
 }
  .sec-crd-1, .sec-crd-2, .sec-crd-3, .sec-crd-4 {
@@ -226,7 +227,7 @@ a{
 
 .main-crd img, .sec-crd-1 img, .sec-crd-2 img, .sec-crd-3 img, .sec-crd-4 img {
     width: 100%;
-    height: auto;
+    height: 60%;
     object-fit: cover;
     margin: 0;
     padding: 0;
@@ -239,13 +240,15 @@ h4 {
     display: flex;
     padding: 5px 15px;
     border-radius: 25px;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     font-weight: 700;
     width: 180px;
     height: 30px;
+    padding-left: 10px;
     /* margin: -20px auto 10px; */
     align-self: center;
-    margin-top: -37px;;
+    margin-top: -30px;
+    margin-bottom: 30px;
 }
 
 h3 {
@@ -261,6 +264,7 @@ p {
     color: #666;
     text-align: center;
     margin: 0 10px 10px;
+
 }
 
 .sec-cards {
