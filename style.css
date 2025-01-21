@@ -447,6 +447,8 @@ footer {
         align-items: flex-start;
         gap: 20px;
     }
-
+    .main-crd{
+        display: none;
+    }
 
 }
