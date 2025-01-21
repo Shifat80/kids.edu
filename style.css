@@ -212,6 +212,18 @@ a{
     padding-top: 20px;
 
 }
+
+.main-crd h3,.main-crd p{
+    text-align: start;
+    padding: 0 20px;
+}
+.main-crd p{
+    font-size: 0.9rem;
+    color: #666;
+    text-align: start;
+    margin: 0 10px 10px;
+    padding-top: 20px;
+}
  .sec-crd-1, .sec-crd-2, .sec-crd-3, .sec-crd-4 {
     background: #fff;
     border-radius: 15px;
@@ -242,13 +254,14 @@ h4 {
     border-radius: 25px;
     font-size: 0.6rem;
     font-weight: 700;
-    width: 180px;
+    width: 140px;
     height: 30px;
     padding-left: 10px;
     /* margin: -20px auto 10px; */
     align-self: center;
     margin-top: -30px;
     margin-bottom: 30px;
+    margin-left: 20px;
 }
 
 h3 {
@@ -271,6 +284,7 @@ p {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+    padding-top: 20px;
 }
 .story-btn{
     display: flex;
