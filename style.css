@@ -386,6 +386,9 @@ footer {
     width: 90px;
     height: 90px;
   }
+  .footer-section p{
+    text-align: start;
+}
 
 
 
